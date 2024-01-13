@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:background="@drawable/about"
+    tools:context=".AboutFragment">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="129dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/logo_r" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:text="RentalU"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="#56312A" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="About Us"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="#56312A"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C4DCE8"
+            app:cardElevation="30dp"
+            app:cardCornerRadius="30dp"
+            android:layout_margin="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+        <TextView
+            android:id="@+id/firstone"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="RentalU is an online platform designed to make it easier for people to find, rent, and share properties. Whether you are a homeowner looking to rent out a property or a renter looking for a place to call home, RentalU is the perfect solution."
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:id="@+id/secondone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="At RentalU, we provide a wide range of property options, including apartments, houses, and bungalows. With easy navigation and intuitive filters, finding the perfect place to call home has never been easier."
+            android:textColor="@android:color/black"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="RentalU is not just about renting property; it's about fostering a sense of community and belonging. Our mission is to help people find the perfect place to call home and make their dreams come true. New posts can be made for your rental flat as well."
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home"/>
+
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/baseline_post_add_24"
+            android:title="Create new Posts"/>
+        <item
+            android:id="@+id/nav_edit"
+            android:icon="@drawable/baseline_edit_24"
+            android:title="Edit Posts"/>
+
+        <item
+            android:id="@+id/nav_delete"
+            android:icon="@drawable/baseline_delete_24"
+            android:title="Delete Posts"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/baseline_info_24"
+            android:title="About Us"/>
+    </group>
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_logout_24"
+                android:title="Logout"/>
+        </menu>
+    </item>
+</menu>

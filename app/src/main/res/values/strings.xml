@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RentalU</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+
+    <string name="title1">Welcome !</string>
+    <string name="title2">Add Advertisements!</string>
+    <string name="title3">Check Posts</string>
+    <string name="subtitle1">Welcome to the RentalU Application. \n You can find the available rental flats,bungalow and houses around the country.</string>
+    <string name="subtitle2">On this application, you have the option to post your own advertisements.</string>
+    <string name="subtitle3">You can link and locate all the rented items.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
